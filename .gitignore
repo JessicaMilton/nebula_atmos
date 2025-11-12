@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+
+# Node
+contracts/node_modules/
+frontend/node_modules/
+
+# Contracts build artifacts
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+contracts/build-info/
+contracts/fhevmTemp/
+
+# Frontend build artifacts
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/coverage/
+frontend/.turbo/
+frontend/.cache/
+frontend/tsconfig.tsbuildinfo
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+*.env.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.secrets
+*.secret
+*.asc
+*.gpg
+
+
