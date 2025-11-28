@@ -35,5 +35,6 @@ frontend/tsconfig.tsbuildinfo
 *.secret
 *.asc
 *.gpg
+*.log
 
 

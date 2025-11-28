@@ -1,0 +1,24 @@
+.vercel
+.DS_Store
+node_modules/
+.next/
+out/
+dist/
+coverage/
+.turbo
+.cache
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+*.env.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.secrets
+*.secret
+*.asc
+*.gpg
